@@ -1,0 +1,63 @@
+﻿body {
+}
+
+.secao {
+    min-height: 50px;
+    position:relative;
+}
+
+.textoBoasVindasAoCadastro, 
+.textoInstrucoesParaDadosBasicos, 
+.textoInstrucoesParaAvaliacaoConhecimentos,
+.textoAgradecimentoPeloCadastro {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.textoDescricaoDoCadastro {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+.secaoConhecimentos {
+    margin-top: 20px;
+}
+
+.btn {
+    outline: none !important;
+    height: 100%;
+    width: 100%;
+    font-size: 1.3em;
+    background-color: transparent;
+    border: 1px solid #0192F6;
+    border-radius: 0;
+    margin-top:35px;
+}
+
+    .btn:hover, .btn:active, btn:focus {
+        background-color: #0192F6;
+        color: #fff;
+        transition: all 0.2s ease-out 0s;
+    }
+
+input[type="text"] {
+    height: 35px;
+    width: 100%;
+    border: 1px solid #0192F6;
+}
+
+    input[type="text"]:hover, input[type="text"]:active, input[type="text"]:focus {
+        border: 1px solid #22e7fb;
+        transition: all 0.2s ease-out 0s;
+    }
+
+input[type="range"] {
+   padding: 5px;
+}
+
+.imagemConclusao {
+    text-align: center; 
+    margin-top: 20px;
+}
