@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>@ProcessoSeletivo.Resources.Label.Titulo</title>
+    <link href="@Url.Content("~/Content/Site.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/bootstrap.min.css")" rel="stylesheet" type="text/css" />
+    <script src="@Url.Content("~/Scripts/jquery-2.1.4.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/jquery-ui-1.11.4.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/modernizr-2.8.3.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/bootstrap.min.js")" type="text/javascript"></script>
+
+    @RenderSection("head", false)
+</head>
+
+<body>
+    <div id="cabecalho" class="cabecalho row">
+        <div class="col-xs-1 col-md-offset-1">
+            <a href="@ProcessoSeletivo.Resources.Label.LinkSiteDaEmpresa" target="_blank" style="outline: none !important;">
+                <div class="logotipo"></div>
+            </a>
+        </div>
+        <div class="col-md-8">
+            @RenderSection("cabecalho", false)
+        </div>
+    </div>
+
+    @RenderBody()
+</body>
+</html>
